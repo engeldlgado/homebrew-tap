@@ -7,6 +7,10 @@ models locally on Intel Macs with AMD GPUs — with Homebrew.
 brew install --cask engeldlgado/tap/toshllm
 ```
 
+> The casks go live with ToshLLM 0.86.5, the first release signed with an Apple
+> Developer ID. They are ready on the `prepare-0.86.5` branch, waiting only for
+> that release's checksum.
+
 ## Which one to install
 
 The engine is compiled twice, because Macs whose CPU predates AVX2 (Mac Pro 5,1
