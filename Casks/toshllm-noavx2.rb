@@ -15,8 +15,8 @@ cask "toshllm-noavx2" do
   # The app checks for its own updates and installs them in place.
   auto_updates true
   conflicts_with cask: "toshllm"
-  depends_on macos: :sonoma
   depends_on arch: :x86_64
+  depends_on macos: :sonoma
 
   app "ToshLLM.app"
 

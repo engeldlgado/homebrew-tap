@@ -14,8 +14,8 @@ cask "toshllm" do
 
   # The app checks for its own updates and installs them in place.
   auto_updates true
-  depends_on macos: :sonoma
   depends_on arch: :x86_64
+  depends_on macos: :sonoma
 
   app "ToshLLM.app"
 
