@@ -1,6 +1,6 @@
 cask "toshllm" do
-  version "0.87.28"
-  sha256 "b55799560e3e71e82d348ba8822c630f093e1001debc6e3434e09c1a0678794c"
+  version "0.87.29"
+  sha256 "173146b1c351eb1cafb779ec03bd6727e89cbe7cc05a9537b053a4dee08781d4"
 
   url "https://github.com/engeldlgado/toshllm/releases/download/v#{version}/ToshLLM-v#{version}.dmg"
   name "ToshLLM"
