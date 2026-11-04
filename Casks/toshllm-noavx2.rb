@@ -1,6 +1,6 @@
 cask "toshllm-noavx2" do
-  version "0.87.32"
-  sha256 "083aefa14986d20a9b054560392adcfdd2590c4d6842f76cbd59535cea28e2c4"
+  version "0.87.33"
+  sha256 "674093bbc600affe5679830cfd6e32817ac29691adbf21297d0285d3ccfda8af"
 
   url "https://github.com/engeldlgado/toshllm/releases/download/v#{version}/ToshLLM-v#{version}-noavx2.dmg"
   name "ToshLLM (no-AVX2)"
